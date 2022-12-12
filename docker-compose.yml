@@ -9,6 +9,6 @@ services:
       - 50003:50000
     container_name: my-jenkins-sohail
     volumes:
-      - /Users/Admin/Documents/sohailjenkins:/var/JENKINS_HOME
+      - /Users/Admin/Documents/sohailjenkins:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
 
