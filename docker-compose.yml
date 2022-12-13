@@ -7,7 +7,7 @@ services:
     ports:
       - 8083:8080
       - 50003:50000
-    container_name: my-jenkins-soha
+    container_name: my-jenkins-amir
     volumes:
       - D:\Docker-Setup:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
